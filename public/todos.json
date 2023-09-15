@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "task": "Do the dishes",
+        "timeValue": 10,
+        "completed": false
+    },
+    {
+        "id": 2,
+        "task": "Do the laundry",
+        "timeValue": 20,
+        "completed": false
+    },
+    {
+        "id": 3,
+        "task": "Buy groceries",
+        "timeValue": 30,
+        "completed": true
+    }
+]

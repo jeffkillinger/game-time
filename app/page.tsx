@@ -1,20 +1,14 @@
-import React from 'react'
-import List from './components/list'
+'use client'
 
-export default function Home() {
+import TodoList from './components/TodoList';
+
+export default function MyApp() {
   return (
-    <main>
-      <div>
-        <p>Hello this is Jeff's app</p>
-        <List />
-      </div>
-    </main>
-  )
+    <div>
+      <TodoList />
+      <p>hello is anybody here</p>
+    </div>
+  );
 }
 
 
-// To do item
-// From item -- time earned
-// Cross off completed items
-// List component
-// Time earned gets added up into a bank
